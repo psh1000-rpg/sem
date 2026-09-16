@@ -3,3 +3,6 @@
 [![LICENSE](https://img.shields.io/github/license/psh1000-rpg/sem.svg?style=flat-square)](https://github.com/psh1000-rpg/sem/blob/master/LICENSE)
 
 [![Releases](https://img.shields.io/github/release/psh1000-rpg/sem/all.svg?style=flat-square)](https://github.com/psh1000-rpg/sem/releases)
+
+# DevOps
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/psh1000-rpg/sem/main.yml?branch=develop&style=flat-square)
