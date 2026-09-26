@@ -9,6 +9,9 @@ public class Main {
 
         // Connect to database
         a.connect();
+        Employee emp = a.getEmployee(255530);
+        //Display Results
+        a.displayEmployee(emp);
 
         // Disconnect from database
         a.disconnect();
