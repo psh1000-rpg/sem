@@ -1,7 +1,7 @@
 package com.napier.sem;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         // Create new Application
@@ -9,9 +9,15 @@ public class Main {
 
         // Connect to database
         a.connect();
-        Employee emp = a.getEmployee(255530);
-        //Display Results
-        a.displayEmployee(emp);
+
+        // Extract employee salary information
+        ArrayList<Employee> employees = a.getAllSalaries();
+
+        // Test the size of the returned data - should be 240124
+        System.out.println(employees.size());
+
+        // Print the salaries
+        a.printSalaries(employees);
 
         // Disconnect from database
         a.disconnect();
